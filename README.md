@@ -1,8 +1,8 @@
-# javaのコンパイル
+# javaコンパイラ
 
 ## Usage
 ```sh
-git clone 
+git clone https://github.com/saitoperf/javac.git
 cd javac
 # build docker image 
 ./java.sh build
