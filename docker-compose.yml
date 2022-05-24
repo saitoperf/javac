@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  javac:
+    image: javac
+    container_name: javac
+    volumes:
+    - ./src:/javac
+    command: 
+    - -encoding
+    - UTF-8
+    - smp1.java
+
+# docker run -it javac --rm
